@@ -1,0 +1,11 @@
+<h4 [style]="'background-color:red;'">it is the first process</h4>
+<h4 [style]="'backgroundColor:yellow;'">it is the 2nd process</h4>
+<h4 [style]="'backgroundColor:yellow; color:pink;'">it is the 3rd process</h4>
+
+<h4 [ngStyle]="{'background-color':'green' , 'fontFamily': 'cooper' }">it is the 4th process</h4>
+
+<h4 [ngStyle]="stringg">it is the 5th process</h4>  <!-- this stringg is declared by app.component.ts -->
+<h4 [style.color]="'blue'">it is the 6th process</h4>  
+<h4 [style.fontSize.px]="'50'"  [style.backgroundColor]="'brown'" >it is the 7th process</h4>  
+<h4 [style.color]="name ? 'red' : 'blue' "  [style.backgroundColor]="'black'" >it is the 8th process</h4>  
+
